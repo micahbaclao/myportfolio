@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Figtree', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#gmap_canvas {
+    height: 50vh;
+    width: 100%;
+}
+
+#sidebar {
+    background-color: #FFDB58 !important;
+}
+
+
+#projects {
+    background-color: #fd8a5e;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-video {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+        #sidebar {
+            display: none;
+        }
+    }
+
+
+/* FOOTER */
+
+.footer {
+    height: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons {
+    margin-top: 5px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
